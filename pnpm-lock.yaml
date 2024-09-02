@@ -219,8 +219,8 @@ importers:
         specifier: ^17.0.13
         version: 17.0.13
       '@withtyped/server':
-        specifier: ^0.12.9
-        version: 0.12.9(zod@3.22.4)
+        specifier: ^0.14.0
+        version: 0.14.0(zod@3.22.4)
       eslint:
         specifier: ^8.44.0
         version: 8.44.0
@@ -1586,8 +1586,8 @@ importers:
         specifier: workspace:^3.1.0
         version: link:../shared
       '@withtyped/server':
-        specifier: ^0.12.9
-        version: 0.12.9(zod@3.22.4)
+        specifier: ^0.14.0
+        version: 0.14.0(zod@3.22.4)
       zod:
         specifier: ^3.22.4
         version: 3.22.4
@@ -1711,8 +1711,8 @@ importers:
         specifier: ^0.7.22
         version: 0.7.22(zod@3.22.4)
       '@withtyped/server':
-        specifier: ^0.12.9
-        version: 0.12.9(zod@3.22.4)
+        specifier: ^0.14.0
+        version: 0.14.0(zod@3.22.4)
     optionalDependencies:
       zod:
         specifier: ^3.22.4
@@ -7939,6 +7939,16 @@ packages:
     dependencies:
       '@silverhand/essentials': 2.9.0
       '@withtyped/shared': 0.2.2
+      zod: 3.22.4
+
+  /@withtyped/server@0.14.0(zod@3.22.4):
+    resolution: {integrity: sha512-syBE91FzVzQAbuoT+coJwXcyPbyVZgrvKjQgAj4y5y38q7k4Le6SBan0kZE2VEKj2HyYj6i91uI99FdE1SkoYA==}
+    peerDependencies:
+      zod: ^3.19.1
+    dependencies:
+      '@silverhand/essentials': 2.9.0
+      '@withtyped/shared': 0.2.2
+      nanoid: 4.0.2
       zod: 3.22.4
 
   /@withtyped/shared@0.2.2:
@@ -14656,7 +14666,6 @@ packages:
     resolution: {integrity: sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==}
     engines: {node: ^14 || ^16 || >=18}
     hasBin: true
-    dev: false
 
   /nanoid@5.0.1:
     resolution: {integrity: sha512-vWeVtV5Cw68aML/QaZvqN/3QQXc6fBfIieAlu05m7FZW2Dgb+3f0xc0TTxuJW+7u30t7iSDTV/j3kVI0oJqIfQ==}
