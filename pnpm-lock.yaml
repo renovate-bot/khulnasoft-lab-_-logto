@@ -580,8 +580,8 @@ importers:
         specifier: ^14.0.0
         version: 14.0.0(react-dom@18.2.0)(react@18.2.0)
       '@types/color':
-        specifier: ^3.0.3
-        version: 3.0.3
+        specifier: ^4.0.0
+        version: 4.2.0
       '@types/jest':
         specifier: ^29.4.0
         version: 29.4.0
@@ -1265,8 +1265,8 @@ importers:
         specifier: ^8.0.1
         version: 8.0.1(@types/react@18.0.31)(react-dom@18.2.0)(react@18.2.0)
       '@types/color':
-        specifier: ^3.0.3
-        version: 3.0.3
+        specifier: ^4.0.0
+        version: 4.2.0
       '@types/jest':
         specifier: ^29.4.0
         version: 29.4.0
@@ -1784,8 +1784,8 @@ importers:
         specifier: 5.0.0
         version: 5.0.0(typescript@5.3.3)
       '@types/color':
-        specifier: ^3.0.3
-        version: 3.0.3
+        specifier: ^4.0.0
+        version: 4.2.0
       '@types/jest':
         specifier: ^29.4.0
         version: 29.4.0
@@ -7289,8 +7289,8 @@ packages:
     resolution: {integrity: sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==}
     dev: true
 
-  /@types/color@3.0.3:
-    resolution: {integrity: sha512-X//qzJ3d3Zj82J9sC/C18ZY5f43utPbAJ6PhYt/M7uG6etcF6MRpKdN880KBy43B0BMzSfeT96MzrsNjFI3GbA==}
+  /@types/color@4.2.0:
+    resolution: {integrity: sha512-6+xrIRImMtGAL2X3qYkd02Mgs+gFGs+WsK0b7VVMaO4mYRISwyTjcqNrO0mNSmYEoq++rSLDB2F5HDNmqfOe+A==}
     dependencies:
       '@types/color-convert': 2.0.0
     dev: true
