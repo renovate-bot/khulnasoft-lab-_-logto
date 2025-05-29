@@ -118,7 +118,7 @@
     "jest-matcher-specific-error": "^1.0.0",
     "jsonc-eslint-parser": "^2.4.0",
     "lint-staged": "^15.0.0",
-    "nock": "^13.3.1",
+    "nock": "^14.0.0",
     "node-mocks-http": "^1.12.1",
     "nodemon": "^3.0.0",
     "prettier": "^3.0.0",
