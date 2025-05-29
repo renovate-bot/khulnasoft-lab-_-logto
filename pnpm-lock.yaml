@@ -1458,8 +1458,8 @@ importers:
         specifier: ^8.44.0
         version: 8.44.0
       expect-puppeteer:
-        specifier: ^9.0.0
-        version: 9.0.0
+        specifier: ^11.0.0
+        version: 11.0.0
       got:
         specifier: ^14.0.0
         version: 14.0.0
@@ -10571,6 +10571,11 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       os-homedir: 1.0.2
+    dev: true
+
+  /expect-puppeteer@11.0.0:
+    resolution: {integrity: sha512-fgxsbOD+HqwOCMitYqEDzRoJM2fxKbCKPYfUoukK+qdZm/nC+cTOI74Au2MfmMZmF/5CgQGO4+1Ywq2GgD8zCQ==}
+    engines: {node: '>=18'}
     dev: true
 
   /expect-puppeteer@9.0.0:
