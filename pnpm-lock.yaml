@@ -1247,8 +1247,8 @@ importers:
         specifier: 5.0.0
         version: 5.0.0(typescript@5.3.3)
       '@simplewebauthn/browser':
-        specifier: ^8.3.1
-        version: 8.3.1
+        specifier: ^13.0.0
+        version: 13.1.0
       '@simplewebauthn/typescript-types':
         specifier: ^8.0.0
         version: 8.0.0
@@ -6798,10 +6798,8 @@ packages:
       typescript: 5.3.3
     dev: true
 
-  /@simplewebauthn/browser@8.3.1:
-    resolution: {integrity: sha512-bMW7oOkxX4ydRAkkPtJ1do2k9yOoIGc/hZYebcuEOVdJoC6wwVpu97mYY7Mz8B9hLlcaR5WFgBsLl5tSJVzm8A==}
-    dependencies:
-      '@simplewebauthn/typescript-types': 8.0.0
+  /@simplewebauthn/browser@13.1.0:
+    resolution: {integrity: sha512-WuHZ/PYvyPJ9nxSzgHtOEjogBhwJfC8xzYkPC+rR/+8chl/ft4ngjiK8kSU5HtRJfczupyOh33b25TjYbvwAcg==}
     dev: true
 
   /@simplewebauthn/server@8.2.0:
