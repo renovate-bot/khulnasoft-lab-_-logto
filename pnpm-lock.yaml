@@ -763,8 +763,8 @@ importers:
         specifier: ^15.5.0
         version: 15.5.0(react@18.2.0)
       react-timer-hook:
-        specifier: ^3.0.5
-        version: 3.0.5(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^4.0.0
+        version: 4.0.5(react@18.2.0)
       recharts:
         specifier: ^2.1.13
         version: 2.1.13(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)
@@ -1379,8 +1379,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       react-timer-hook:
-        specifier: ^3.0.5
-        version: 3.0.5(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^4.0.0
+        version: 4.0.5(react@18.2.0)
       react-top-loading-bar:
         specifier: ^2.3.1
         version: 2.3.1(react@18.2.0)
@@ -16443,14 +16443,12 @@ packages:
       refractor: 3.6.0
     dev: true
 
-  /react-timer-hook@3.0.5(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-n+98SdmYvui2ne3KyWb3Ldu4k0NYQa3g/VzW6VEIfZJ8GAk/jJsIY700M8Nd2vNSTj05c7wKyQfJBqZ0x7zfiA==}
+  /react-timer-hook@4.0.5(react@18.2.0):
+    resolution: {integrity: sha512-elDxx4OIxBTbm4rXSK5cjBHkq06prO2qY9JzoYxOa11AkL3ij69jp0VuDUOqcehEK38CV0uu7FzUKtPVISRLKA==}
     peerDependencies:
       react: '>=16.8.0 || ^18.0.0'
-      react-dom: '>=16.8.0'
     dependencies:
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
     dev: true
 
   /react-top-loading-bar@2.3.1(react@18.2.0):
