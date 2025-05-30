@@ -745,8 +745,8 @@ importers:
         specifier: ^2.2.0
         version: 2.2.0(csstype@3.0.11)(react-dom@18.2.0)(react@18.2.0)
       react-i18next:
-        specifier: ^12.3.1
-        version: 12.3.1(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^15.0.0
+        version: 15.5.2(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       react-markdown:
         specifier: ^9.0.0
         version: 9.0.0(@types/react@18.0.31)(react@18.2.0)
@@ -1172,8 +1172,8 @@ importers:
         specifier: ^18.0.0
         version: 18.2.0(react@18.2.0)
       react-i18next:
-        specifier: ^12.3.1
-        version: 12.3.1(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^15.0.0
+        version: 15.5.2(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       stylelint:
         specifier: ^15.0.0
         version: 15.0.0
@@ -1367,8 +1367,8 @@ importers:
         specifier: ^7.34.0
         version: 7.34.0(react@18.2.0)
       react-i18next:
-        specifier: ^12.3.1
-        version: 12.3.1(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^15.0.0
+        version: 15.5.2(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       react-modal:
         specifier: ^3.15.1
         version: 3.15.1(react-dom@18.2.0)(react@18.2.0)
@@ -4085,6 +4085,11 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.11
+
+  /@babel/runtime@7.27.3:
+    resolution: {integrity: sha512-7EYtGezsdiDMyY80+65EzwiGmcJqpmcZCojSXaRgdrBaGtWTgDZKq69cPIVped6MkIM78cTQ2GOiEYjwOlG4xw==}
+    engines: {node: '>=6.9.0'}
+    dev: true
 
   /@babel/template@7.18.10:
     resolution: {integrity: sha512-TI+rCtooWHr3QJ27kJxfjutghu44DLnasDMwpDqCXVTal9RLp3RSYNh4NdBrRP2cQAoG9A8juOQl6P6oZG4JxA==}
@@ -16281,24 +16286,28 @@ packages:
       - csstype
     dev: true
 
-  /react-i18next@12.3.1(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-5v8E2XjZDFzK7K87eSwC7AJcAkcLt5xYZ4+yTPDAW1i7C93oOY1dnr4BaQM7un4Hm+GmghuiPvevWwlca5PwDA==}
+  /react-i18next@15.5.2(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-ePODyXgmZQAOYTbZXQn5rRsSBu3Gszo69jxW6aKmlSgxKAI1fOhDwSu6bT4EKHciWPKQ7v7lPrjeiadR6Gi+1A==}
     peerDependencies:
-      i18next: '>= 19.0.0'
+      i18next: '>= 23.2.3'
       react: '>= 16.8.0 || ^18.0.0'
       react-dom: '*'
       react-native: '*'
+      typescript: ^5
     peerDependenciesMeta:
       react-dom:
         optional: true
       react-native:
         optional: true
+      typescript:
+        optional: true
     dependencies:
-      '@babel/runtime': 7.21.0
+      '@babel/runtime': 7.27.3
       html-parse-stringify: 3.0.1
       i18next: 22.4.15
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
+      typescript: 5.3.3
     dev: true
 
   /react-is@16.13.1:
@@ -18704,7 +18713,7 @@ packages:
     dev: true
 
   /void-elements@3.1.0:
-    resolution: {integrity: sha1-YU9/v42AHwu18GYfWy9XhXUOTwk=}
+    resolution: {integrity: sha512-Dhxzh5HZuiHQhbvTW9AMetFfBHDMYpo23Uo9btPXgdYP+3T5S+p+jgNy7spra+veYhBP2dCSgxR/i2Y02h5/6w==}
     engines: {node: '>=0.10.0'}
     dev: true
 
