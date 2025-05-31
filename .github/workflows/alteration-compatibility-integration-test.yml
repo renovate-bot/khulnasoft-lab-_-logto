@@ -51,7 +51,7 @@ jobs:
     env:
       INTEGRATION_TEST: true
     steps:
-      - uses: logto-io/actions-package-logto-artifact@v1.1.0
+      - uses: logto-io/actions-package-logto-artifact@v2.0.1
         with:
           artifact-name: alteration-integration-test-${{ github.sha }}
           branch: ${{github.base_ref}}

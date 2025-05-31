@@ -18,7 +18,7 @@ jobs:
       INTEGRATION_TEST: true
 
     steps:
-      - uses: logto-io/actions-package-logto-artifact@v1.1.0
+      - uses: logto-io/actions-package-logto-artifact@v2.0.1
         with:
           artifact-name: integration-test-${{ github.sha }}
 
