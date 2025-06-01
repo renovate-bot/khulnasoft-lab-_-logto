@@ -72,7 +72,7 @@
     "koa-proxies": "^0.12.1",
     "koa-router": "^12.0.0",
     "koa-send": "^5.0.1",
-    "lru-cache": "^10.0.0",
+    "lru-cache": "^11.0.0",
     "nanoid": "^5.0.1",
     "oidc-provider": "^8.2.2",
     "openapi-types": "^12.1.3",
