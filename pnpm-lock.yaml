@@ -628,8 +628,8 @@ importers:
         specifier: ^3.0.11
         version: 3.0.11
       date-fns:
-        specifier: ^2.29.3
-        version: 2.29.3
+        specifier: ^4.0.0
+        version: 4.1.0
       dayjs:
         specifier: ^1.10.5
         version: 1.11.6
@@ -871,8 +871,8 @@ importers:
         specifier: ^3.4.0
         version: 3.4.0
       date-fns:
-        specifier: ^2.29.3
-        version: 2.29.3
+        specifier: ^4.0.0
+        version: 4.1.0
       decamelize:
         specifier: ^6.0.0
         version: 6.0.0
@@ -9466,9 +9466,8 @@ packages:
       whatwg-url: 11.0.0
     dev: true
 
-  /date-fns@2.29.3:
-    resolution: {integrity: sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==}
-    engines: {node: '>=0.11'}
+  /date-fns@4.1.0:
+    resolution: {integrity: sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==}
 
   /dayjs@1.11.6:
     resolution: {integrity: sha512-zZbY5giJAinCG+7AGaw0wIhNZ6J8AhWuSXKvuc1KAyMiRsvGQWqh4L+MomvhdAYjN+lqvVCMq1I41e3YHvXkyQ==}
