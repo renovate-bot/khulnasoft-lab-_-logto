@@ -290,8 +290,8 @@ importers:
         specifier: workspace:^3.1.0
         version: link:../../shared
       jose:
-        specifier: ^5.0.0
-        version: 5.0.1
+        specifier: ^6.0.0
+        version: 6.0.11
 
   packages/connectors/connector-aws-ses:
     dependencies:
@@ -429,8 +429,8 @@ importers:
         specifier: workspace:^3.1.0
         version: link:../../shared
       jose:
-        specifier: ^5.0.0
-        version: 5.0.1
+        specifier: ^6.0.0
+        version: 6.0.11
       nanoid:
         specifier: ^5.0.1
         version: 5.0.1
@@ -907,8 +907,8 @@ importers:
         specifier: 0.6.3
         version: 0.6.3
       jose:
-        specifier: ^5.0.0
-        version: 5.0.1
+        specifier: ^6.0.0
+        version: 6.0.11
       koa:
         specifier: ^2.13.1
         version: 2.13.4
@@ -1473,8 +1473,8 @@ importers:
         specifier: ^9.0.0
         version: 9.0.0(puppeteer@21.0.0)
       jose:
-        specifier: ^5.0.0
-        version: 5.0.1
+        specifier: ^6.0.0
+        version: 6.0.11
       node-fetch:
         specifier: ^3.3.0
         version: 3.3.0
@@ -13131,6 +13131,10 @@ packages:
 
   /jose@5.0.1:
     resolution: {integrity: sha512-gRVzy7s3RRdGbXmcTdlOswJOjhwPLx1ijIgAqLY6ktzFpOJxxYn4l0fC2vHaHHi4YBX/5FOL3aY+6W0cvQgpug==}
+    dev: true
+
+  /jose@6.0.11:
+    resolution: {integrity: sha512-QxG7EaliDARm1O1S8BGakqncGT9s25bKL1WSf6/oa17Tkqwi8D2ZNglqCF+DsYF88/rV66Q/Q2mFAy697E1DUg==}
 
   /js-base64@3.7.5:
     resolution: {integrity: sha512-3MEt5DTINKqfScXKfJFrRbxkrnk2AxPWGBL/ycjz4dK8iqiSJ06UxD8jh8xuh6p10TX4t2+7FsBYVxxQbMg+qA==}
