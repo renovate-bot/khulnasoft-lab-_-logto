@@ -5,7 +5,7 @@
   "author": "Silverhand Inc. <contact@silverhand.io>",
   "dependencies": {
     "@logto/connector-kit": "workspace:^2.1.0",
-    "fast-xml-parser": "^4.2.5",
+    "fast-xml-parser": "^5.0.0",
     "samlify": "2.8.10"
   },
   "main": "./lib/index.js",
