@@ -56,7 +56,7 @@
     "prettier": "^3.0.0",
     "roarr": "^7.11.0",
     "slonik": "^30.0.0",
-    "slonik-sql-tag-raw": "^1.1.4",
+    "slonik-sql-tag-raw": "^48.0.0",
     "typescript": "^5.3.3"
   },
   "eslintConfig": {
