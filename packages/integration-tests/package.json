@@ -21,7 +21,7 @@
     "start": "pnpm test"
   },
   "devDependencies": {
-    "@apidevtools/swagger-parser": "^10.1.0",
+    "@apidevtools/swagger-parser": "^12.0.0",
     "@jest/test-sequencer": "^29.5.0",
     "@jest/types": "^29.1.2",
     "@logto/connector-kit": "workspace:^2.1.0",
