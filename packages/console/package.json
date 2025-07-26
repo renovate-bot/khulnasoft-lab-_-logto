@@ -64,7 +64,7 @@
     "buffer": "^5.7.1",
     "classnames": "^2.3.1",
     "clean-deep": "^3.4.0",
-    "cross-env": "^7.0.3",
+    "cross-env": "^10.0.0",
     "csstype": "^3.0.11",
     "date-fns": "^2.29.3",
     "dayjs": "^1.10.5",
