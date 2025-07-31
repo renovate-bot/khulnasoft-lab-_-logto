@@ -649,8 +649,8 @@ importers:
         specifier: ^5.3.0
         version: 5.3.0
       i18next:
-        specifier: ^22.4.15
-        version: 22.4.15
+        specifier: ^25.0.0
+        version: 25.3.2(typescript@5.3.3)
       i18next-browser-languagedetector:
         specifier: ^7.0.1
         version: 7.0.1
@@ -746,7 +746,7 @@ importers:
         version: 2.2.0(csstype@3.0.11)(react-dom@18.2.0)(react@18.2.0)
       react-i18next:
         specifier: ^12.3.1
-        version: 12.3.1(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0)
+        version: 12.3.1(i18next@25.3.2)(react-dom@18.2.0)(react@18.2.0)
       react-markdown:
         specifier: ^9.0.0
         version: 9.0.0(@types/react@18.0.31)(react@18.2.0)
@@ -901,8 +901,8 @@ importers:
         specifier: ^7.0.0
         version: 7.0.0
       i18next:
-        specifier: ^22.4.15
-        version: 22.4.15
+        specifier: ^25.0.0
+        version: 25.3.2(typescript@5.3.3)
       iconv-lite:
         specifier: 0.6.3
         version: 0.6.3
@@ -1148,8 +1148,8 @@ importers:
         specifier: ^8.44.0
         version: 8.44.0
       i18next:
-        specifier: ^22.4.15
-        version: 22.4.15
+        specifier: ^25.0.0
+        version: 25.3.2(typescript@5.3.3)
       i18next-browser-languagedetector:
         specifier: ^7.0.1
         version: 7.0.1
@@ -1173,7 +1173,7 @@ importers:
         version: 18.2.0(react@18.2.0)
       react-i18next:
         specifier: ^12.3.1
-        version: 12.3.1(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0)
+        version: 12.3.1(i18next@25.3.2)(react-dom@18.2.0)(react@18.2.0)
       stylelint:
         specifier: ^15.0.0
         version: 15.0.0
@@ -1304,8 +1304,8 @@ importers:
         specifier: ^8.44.0
         version: 8.44.0
       i18next:
-        specifier: ^22.4.15
-        version: 22.4.15
+        specifier: ^25.0.0
+        version: 25.3.2(typescript@5.3.3)
       i18next-browser-languagedetector:
         specifier: ^7.0.1
         version: 7.0.1
@@ -1368,7 +1368,7 @@ importers:
         version: 7.34.0(react@18.2.0)
       react-i18next:
         specifier: ^12.3.1
-        version: 12.3.1(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0)
+        version: 12.3.1(i18next@25.3.2)(react-dom@18.2.0)(react@18.2.0)
       react-modal:
         specifier: ^3.15.1
         version: 3.15.1(react-dom@18.2.0)(react@18.2.0)
@@ -4085,6 +4085,10 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.11
+
+  /@babel/runtime@7.28.2:
+    resolution: {integrity: sha512-KHp2IflsnGywDjBWDkR9iEqiWSpc8GIi0lgTT3mOElT0PP1tG26P4tmFI2YvAdzgq9RGyoHZQEIEdZy6Ec5xCA==}
+    engines: {node: '>=6.9.0'}
 
   /@babel/template@7.18.10:
     resolution: {integrity: sha512-TI+rCtooWHr3QJ27kJxfjutghu44DLnasDMwpDqCXVTal9RLp3RSYNh4NdBrRP2cQAoG9A8juOQl6P6oZG4JxA==}
@@ -11757,10 +11761,16 @@ packages:
       '@babel/runtime': 7.21.0
     dev: true
 
-  /i18next@22.4.15:
-    resolution: {integrity: sha512-yYudtbFrrmWKLEhl6jvKUYyYunj4bTBCe2qIUYAxbXoPusY7YmdwPvOE6fx6UIfWvmlbCWDItr7wIs8KEBZ5Zg==}
+  /i18next@25.3.2(typescript@5.3.3):
+    resolution: {integrity: sha512-JSnbZDxRVbphc5jiptxr3o2zocy5dEqpVm9qCGdJwRNO+9saUJS0/u4LnM/13C23fUEWxAylPqKU/NpMV/IjqA==}
+    peerDependencies:
+      typescript: ^5
+    peerDependenciesMeta:
+      typescript:
+        optional: true
     dependencies:
-      '@babel/runtime': 7.21.0
+      '@babel/runtime': 7.28.2
+      typescript: 5.3.3
 
   /iconv-lite@0.4.24:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
@@ -16281,7 +16291,7 @@ packages:
       - csstype
     dev: true
 
-  /react-i18next@12.3.1(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0):
+  /react-i18next@12.3.1(i18next@25.3.2)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-5v8E2XjZDFzK7K87eSwC7AJcAkcLt5xYZ4+yTPDAW1i7C93oOY1dnr4BaQM7un4Hm+GmghuiPvevWwlca5PwDA==}
     peerDependencies:
       i18next: '>= 19.0.0'
@@ -16296,7 +16306,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.21.0
       html-parse-stringify: 3.0.1
-      i18next: 22.4.15
+      i18next: 25.3.2(typescript@5.3.3)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
