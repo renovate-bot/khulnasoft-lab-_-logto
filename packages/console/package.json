@@ -112,7 +112,7 @@
     "react-router-dom": "^6.10.0",
     "react-syntax-highlighter": "^15.5.0",
     "react-timer-hook": "^3.0.5",
-    "recharts": "^2.1.13",
+    "recharts": "^3.0.0",
     "remark-gfm": "^4.0.0",
     "stylelint": "^15.0.0",
     "swr": "^2.2.0",
