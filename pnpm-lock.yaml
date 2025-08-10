@@ -610,8 +610,8 @@ importers:
         specifier: ^15.5.1
         version: 15.5.1
       '@withtyped/client':
-        specifier: ^0.7.22
-        version: 0.7.22(zod@3.22.4)
+        specifier: ^0.8.0
+        version: 0.8.8(zod@3.22.4)
       buffer:
         specifier: ^5.7.1
         version: 5.7.1
@@ -856,8 +856,8 @@ importers:
         specifier: ^8.2.0
         version: 8.2.0
       '@withtyped/client':
-        specifier: ^0.7.22
-        version: 0.7.22(zod@3.22.4)
+        specifier: ^0.8.0
+        version: 0.8.8(zod@3.22.4)
       camelcase:
         specifier: ^8.0.0
         version: 8.0.0
@@ -1708,8 +1708,8 @@ importers:
         specifier: ^2.9.0
         version: 2.9.0
       '@withtyped/client':
-        specifier: ^0.7.22
-        version: 0.7.22(zod@3.22.4)
+        specifier: ^0.8.0
+        version: 0.8.8(zod@3.22.4)
       '@withtyped/server':
         specifier: ^0.12.9
         version: 0.12.9(zod@3.22.4)
@@ -7924,10 +7924,10 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@withtyped/client@0.7.22(zod@3.22.4):
-    resolution: {integrity: sha512-emNtcO0jc0dFWhvL7eUIRYzhTfn+JqgIvCmXb8ZUFOR8wdSSGrr9VDlm+wgQD06DEBBpmqtTHMMHTNXJdUC/Qw==}
+  /@withtyped/client@0.8.8(zod@3.22.4):
+    resolution: {integrity: sha512-esZKokD4YUyECHblIYrPIBYgjzpoY9AskW5Lgg8cD9Qxn+LLKwTzjBDcty07kkCS0wvQ2RlzmhYjoRE5yaH6Zg==}
     dependencies:
-      '@withtyped/server': 0.12.9(zod@3.22.4)
+      '@withtyped/server': 0.14.0(zod@3.22.4)
       '@withtyped/shared': 0.2.2
     transitivePeerDependencies:
       - zod
@@ -7939,6 +7939,16 @@ packages:
     dependencies:
       '@silverhand/essentials': 2.9.0
       '@withtyped/shared': 0.2.2
+      zod: 3.22.4
+
+  /@withtyped/server@0.14.0(zod@3.22.4):
+    resolution: {integrity: sha512-syBE91FzVzQAbuoT+coJwXcyPbyVZgrvKjQgAj4y5y38q7k4Le6SBan0kZE2VEKj2HyYj6i91uI99FdE1SkoYA==}
+    peerDependencies:
+      zod: ^3.19.1
+    dependencies:
+      '@silverhand/essentials': 2.9.0
+      '@withtyped/shared': 0.2.2
+      nanoid: 4.0.2
       zod: 3.22.4
 
   /@withtyped/shared@0.2.2:
@@ -14656,7 +14666,6 @@ packages:
     resolution: {integrity: sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==}
     engines: {node: ^14 || ^16 || >=18}
     hasBin: true
-    dev: false
 
   /nanoid@5.0.1:
     resolution: {integrity: sha512-vWeVtV5Cw68aML/QaZvqN/3QQXc6fBfIieAlu05m7FZW2Dgb+3f0xc0TTxuJW+7u30t7iSDTV/j3kVI0oJqIfQ==}
