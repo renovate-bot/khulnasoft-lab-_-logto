@@ -18,7 +18,7 @@ jobs:
       has-alteration-changes: ${{ steps.changes-detection.outputs.has-alteration-changes }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
