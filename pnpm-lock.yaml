@@ -188,8 +188,8 @@ importers:
         specifier: ^17.6.0
         version: 17.6.0
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^4.0.0
+        version: 4.0.17
     devDependencies:
       '@silverhand/eslint-config':
         specifier: 5.0.0
@@ -220,7 +220,7 @@ importers:
         version: 17.0.13
       '@withtyped/server':
         specifier: ^0.12.9
-        version: 0.12.9(zod@3.22.4)
+        version: 0.12.9(zod@4.0.17)
       eslint:
         specifier: ^8.44.0
         version: 8.44.0
@@ -509,7 +509,7 @@ importers:
         version: link:../app-insights
       '@logto/cloud':
         specifier: 0.2.5-faca9a9
-        version: 0.2.5-faca9a9(zod@3.22.4)
+        version: 0.2.5-faca9a9(zod@4.0.17)
       '@logto/connector-kit':
         specifier: workspace:^2.1.0
         version: link:../toolkit/connector-kit
@@ -611,7 +611,7 @@ importers:
         version: 15.5.1
       '@withtyped/client':
         specifier: ^0.7.22
-        version: 0.7.22(zod@3.22.4)
+        version: 0.7.22(zod@4.0.17)
       buffer:
         specifier: ^5.7.1
         version: 5.7.1
@@ -790,8 +790,8 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^4.0.0
+        version: 4.0.17
 
   packages/core:
     dependencies:
@@ -857,7 +857,7 @@ importers:
         version: 8.2.0
       '@withtyped/client':
         specifier: ^0.7.22
-        version: 0.7.22(zod@3.22.4)
+        version: 0.7.22(zod@4.0.17)
       camelcase:
         specifier: ^8.0.0
         version: 8.0.0
@@ -991,12 +991,12 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^4.0.0
+        version: 4.0.17
     devDependencies:
       '@logto/cloud':
         specifier: 0.2.5-faca9a9
-        version: 0.2.5-faca9a9(zod@3.22.4)
+        version: 0.2.5-faca9a9(zod@4.0.17)
       '@silverhand/eslint-config':
         specifier: 5.0.0
         version: 5.0.0(eslint@8.44.0)(prettier@3.0.0)(typescript@5.3.3)
@@ -1181,8 +1181,8 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^4.0.0
+        version: 4.0.17
 
   packages/experience:
     devDependencies:
@@ -1400,8 +1400,8 @@ importers:
         specifier: ^0.1.1
         version: 0.1.1(react@18.2.0)
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^4.0.0
+        version: 4.0.17
 
   packages/integration-tests:
     dependencies:
@@ -1506,8 +1506,8 @@ importers:
         specifier: ^2.9.0
         version: 2.9.0
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^4.0.0
+        version: 4.0.17
     devDependencies:
       '@silverhand/eslint-config':
         specifier: 5.0.0
@@ -1540,8 +1540,8 @@ importers:
         specifier: ^2.9.0
         version: 2.9.0
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^4.0.0
+        version: 4.0.17
     devDependencies:
       '@silverhand/eslint-config':
         specifier: 5.0.0
@@ -1587,10 +1587,10 @@ importers:
         version: link:../shared
       '@withtyped/server':
         specifier: ^0.12.9
-        version: 0.12.9(zod@3.22.4)
+        version: 0.12.9(zod@4.0.17)
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^4.0.0
+        version: 4.0.17
     devDependencies:
       '@silverhand/eslint-config':
         specifier: 5.0.0
@@ -1709,14 +1709,14 @@ importers:
         version: 2.9.0
       '@withtyped/client':
         specifier: ^0.7.22
-        version: 0.7.22(zod@3.22.4)
+        version: 0.7.22(zod@4.0.17)
       '@withtyped/server':
         specifier: ^0.12.9
-        version: 0.12.9(zod@3.22.4)
+        version: 0.12.9(zod@4.0.17)
     optionalDependencies:
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^4.0.0
+        version: 4.0.17
     devDependencies:
       '@jest/types':
         specifier: ^29.0.3
@@ -1765,8 +1765,8 @@ importers:
         version: 4.2.3
     optionalDependencies:
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^4.0.0
+        version: 4.0.17
     devDependencies:
       '@jest/types':
         specifier: ^29.0.3
@@ -1823,8 +1823,8 @@ importers:
   packages/toolkit/language-kit:
     optionalDependencies:
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^4.0.0
+        version: 4.0.17
     devDependencies:
       '@jest/types':
         specifier: ^29.0.3
@@ -5254,12 +5254,12 @@ packages:
       - zod
     dev: true
 
-  /@logto/cloud@0.2.5-faca9a9(zod@3.22.4):
+  /@logto/cloud@0.2.5-faca9a9(zod@4.0.17):
     resolution: {integrity: sha512-hUiuzOPd4bKIV6fIKZLQW2Fc8JYmwKWWps7gZoxGbL3uLmAYYci5JHIP+vM7nbNS+oK1V141sy3JjNS1vAkvGA==}
     engines: {node: ^20.9.0}
     dependencies:
       '@silverhand/essentials': 2.9.0
-      '@withtyped/server': 0.12.9(zod@3.22.4)
+      '@withtyped/server': 0.12.9(zod@4.0.17)
     transitivePeerDependencies:
       - zod
     dev: true
@@ -7924,10 +7924,10 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@withtyped/client@0.7.22(zod@3.22.4):
+  /@withtyped/client@0.7.22(zod@4.0.17):
     resolution: {integrity: sha512-emNtcO0jc0dFWhvL7eUIRYzhTfn+JqgIvCmXb8ZUFOR8wdSSGrr9VDlm+wgQD06DEBBpmqtTHMMHTNXJdUC/Qw==}
     dependencies:
-      '@withtyped/server': 0.12.9(zod@3.22.4)
+      '@withtyped/server': 0.12.9(zod@4.0.17)
       '@withtyped/shared': 0.2.2
     transitivePeerDependencies:
       - zod
@@ -7940,6 +7940,16 @@ packages:
       '@silverhand/essentials': 2.9.0
       '@withtyped/shared': 0.2.2
       zod: 3.22.4
+    dev: true
+
+  /@withtyped/server@0.12.9(zod@4.0.17):
+    resolution: {integrity: sha512-K5zoV9D+WpawbghtlJKF1KOshKkBjq+gYzNRWuZk13YmFWFLcmZn+QCblNP55z9IGdcHWpTRknqb1APuicdzgA==}
+    peerDependencies:
+      zod: ^3.19.1
+    dependencies:
+      '@silverhand/essentials': 2.9.0
+      '@withtyped/shared': 0.2.2
+      zod: 4.0.17
 
   /@withtyped/shared@0.2.2:
     resolution: {integrity: sha512-Vpcj12NqaoZ8M5Z/1kffheI9FBZEm9goed0THmgTcMKXLHjXSRbMZMp0olVxovEgaTIAydshqJOQUXKZMctIZw==}
@@ -19086,6 +19096,10 @@ packages:
   /zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
     requiresBuild: true
+    dev: true
+
+  /zod@4.0.17:
+    resolution: {integrity: sha512-1PHjlYRevNxxdy2JZ8JcNAw7rX8V9P1AKkP+x/xZfxB0K5FYfuV+Ug6P/6NVSR2jHQ+FzDDoDHS04nYUsOIyLQ==}
 
   /zwitch@1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
