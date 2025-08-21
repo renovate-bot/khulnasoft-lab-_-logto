@@ -246,8 +246,8 @@ importers:
         specifier: ^1.10.5
         version: 1.11.6
       iconv-lite:
-        specifier: ^0.6.3
-        version: 0.6.3
+        specifier: ^0.7.0
+        version: 0.7.0
     devDependencies:
       '@shopify/jest-koa-mocks':
         specifier: ^5.0.0
@@ -262,8 +262,8 @@ importers:
         specifier: ^1.10.5
         version: 1.11.6
       iconv-lite:
-        specifier: ^0.6.3
-        version: 0.6.3
+        specifier: ^0.7.0
+        version: 0.7.0
     devDependencies:
       '@shopify/jest-koa-mocks':
         specifier: ^5.0.0
@@ -904,8 +904,8 @@ importers:
         specifier: ^22.4.15
         version: 22.4.15
       iconv-lite:
-        specifier: 0.6.3
-        version: 0.6.3
+        specifier: 0.7.0
+        version: 0.7.0
       jose:
         specifier: ^5.0.0
         version: 5.0.1
@@ -11773,6 +11773,14 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       safer-buffer: 2.1.2
+    dev: true
+
+  /iconv-lite@0.7.0:
+    resolution: {integrity: sha512-cf6L2Ds3h57VVmkZe+Pn+5APsT7FpqJtEhhieDCvrE2MK5Qk9MyffgQyuxQTm6BChfeZNtcOLHp9IcWRVcIcBQ==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      safer-buffer: 2.1.2
+    dev: false
 
   /icss-replace-symbols@1.1.0:
     resolution: {integrity: sha1-Bupvg2ead0njhs/h/oEq5dsiPe0=}

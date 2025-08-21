@@ -6,7 +6,7 @@
   "dependencies": {
     "@logto/connector-kit": "workspace:^2.1.0",
     "dayjs": "^1.10.5",
-    "iconv-lite": "^0.6.3"
+    "iconv-lite": "^0.7.0"
   },
   "devDependencies": {
     "@shopify/jest-koa-mocks": "^5.0.0"
