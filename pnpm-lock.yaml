@@ -158,8 +158,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.1
       p-retry:
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^7.0.0
+        version: 7.0.0
       pg-protocol:
         specifier: ^1.6.0
         version: 1.6.0
@@ -952,8 +952,8 @@ importers:
         specifier: ^12.0.1
         version: 12.0.1
       p-retry:
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^7.0.0
+        version: 7.0.0
       pg-protocol:
         specifier: ^1.6.0
         version: 1.6.0
@@ -7679,10 +7679,6 @@ packages:
       '@types/react': 18.0.31
     dev: true
 
-  /@types/retry@0.12.2:
-    resolution: {integrity: sha512-XISRgDJ2Tc5q4TRqvgJtzsRkFYNJzZrhTdtMoGVBttwzzQJkPnS3WWTFc7kuDRoPtPakl+T+OfdEUjYJj7Jbow==}
-    dev: false
-
   /@types/scheduler@0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
     dev: true
@@ -12108,6 +12104,11 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
+  /is-network-error@1.1.0:
+    resolution: {integrity: sha512-tUdRRAnhT+OtCZR/LxZelH/C7QtjtFrTu5tXCA8pl55eTUElUHT+GPYV8MBMBvea/j+NxQqVt3LbWMRir7Gx9g==}
+    engines: {node: '>=16'}
+    dev: false
+
   /is-number-object@1.0.7:
     resolution: {integrity: sha512-k1U0IRzLMo7ZlYIfzRu23Oh6MiIFasgpb9X76eqfFZAqwH44UI4KTBvBYIZ1dSL9ZzChTB9ShHfLkR4pdW5krQ==}
     engines: {node: '>= 0.4'}
@@ -15229,12 +15230,11 @@ packages:
       p-timeout: 6.1.2
     dev: false
 
-  /p-retry@6.0.0:
-    resolution: {integrity: sha512-6NuuXu8Upembd4sNdo4PRbs+M6aHgBTrFE6lkH0YKjVzne3cDW4gkncB98ty/bkMxLxLVNeD5bX9FyWjM7WZ+A==}
-    engines: {node: '>=16.17'}
+  /p-retry@7.0.0:
+    resolution: {integrity: sha512-3BgO9rjULJYyr0Y0pcsG7FZ+7JB/hfOODO8kx9ppumiO5jprUF92WK/Y7Q0xppZtq4VhTcPiVq7qWLQfIV5aKQ==}
+    engines: {node: '>=20'}
     dependencies:
-      '@types/retry': 0.12.2
-      retry: 0.13.1
+      is-network-error: 1.1.0
     dev: false
 
   /p-timeout@6.1.2:
