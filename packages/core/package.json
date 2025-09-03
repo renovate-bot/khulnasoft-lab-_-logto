@@ -53,7 +53,7 @@
     "date-fns": "^2.29.3",
     "decamelize": "^6.0.0",
     "deepmerge": "^4.2.2",
-    "dotenv": "^16.0.0",
+    "dotenv": "^17.0.0",
     "etag": "^1.8.1",
     "fast-xml-parser": "^4.2.5",
     "find-up": "^7.0.0",

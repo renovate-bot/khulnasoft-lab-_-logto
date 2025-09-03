@@ -35,7 +35,7 @@
     "@silverhand/ts-config": "5.0.0",
     "@types/jest": "^29.4.0",
     "@types/node": "^20.9.5",
-    "dotenv": "^16.0.0",
+    "dotenv": "^17.0.0",
     "eslint": "^8.44.0",
     "expect-puppeteer": "^9.0.0",
     "got": "^14.0.0",

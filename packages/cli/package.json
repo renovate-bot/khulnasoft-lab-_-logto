@@ -53,7 +53,7 @@
     "@silverhand/essentials": "^2.9.0",
     "chalk": "^5.0.0",
     "decamelize": "^6.0.0",
-    "dotenv": "^16.0.0",
+    "dotenv": "^17.0.0",
     "got": "^14.0.0",
     "hpagent": "^1.2.0",
     "inquirer": "^9.0.0",
