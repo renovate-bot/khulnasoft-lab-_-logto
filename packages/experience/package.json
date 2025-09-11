@@ -55,7 +55,7 @@
     "@types/react-router-dom": "^5.3.2",
     "camelcase-keys": "^9.0.0",
     "classnames": "^2.3.1",
-    "color": "^4.2.3",
+    "color": "^5.0.0",
     "core-js": "^3.34.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.44.0",
